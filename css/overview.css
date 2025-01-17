@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.sidebar {
+    height: 100vh;
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sidebar a:hover {
+    background-color: #495057;
+}
+.content {
+    padding: 20px;
+}
+.card-title {
+    font-weight: bold;
+}
+.nav-list {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+.sidebar .secondary-nav {
+    position: absolute;
+    bottom : 30px;
+    width: 100%;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}

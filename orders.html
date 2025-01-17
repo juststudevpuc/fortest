@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders-Shop Management 11</title>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/overview.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-3 col-lg-2 d-md-block sidebar">
+                <h4 class="py-3">Shop Dashboard</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="dashboad.html" class="nav-link">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="product.html" class="nav-link">Products</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="orders.html" class="nav-link">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="customers.html" class="nav-link">Customer</a>
+                    </li>
+                 
+
+                    <li class="nav-item">
+                        <a href="setting.html" class="nav-link">Settings</a>
+                    </li>
+                
+                </ul>
+                <ul class="nav-list secondary-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Sign Out</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 content">
+                
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+                    
+                </div>
+               
+                <div class="mb-4">
+                    <h2 id="orders">Orders</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Order ID</th>
+                                <th>Customer</th>
+                                <th>Date</th>
+                                <th>Total</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>12345</td>
+                                <td>Panhasak</td>
+                                <td>2024-11-22</td>
+                                <td>$150.00</td>
+                                <td><span class="badge bg-success">Completed</span></td>
+                                <td><button class="btn btn-sm btn-primary">Details</button></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>12346</td>
+                                <td>Monyreaksmey</td>
+                                <td>2024-11-23</td>
+                                <td>$200.00</td>
+                                <td><span class="badge bg-warning">Pending</span></td>
+                                <td><button class="btn btn-sm btn-primary">Details</button></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>12345</td>
+                                <td>Sivminh</td>
+                                <td>2024-11-24</td>
+                                <td>$150.00</td>
+                                <td><span class="badge bg-success">Completed</span></td>
+                                <td><button class="btn btn-sm btn-primary">Details</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                </div>
+</body>
+</html>

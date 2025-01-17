@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting-Shop Management 11</title>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/overview.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-3 col-lg-2 d-md-block sidebar">
+                <h4 class="py-3">Shop Dashboard</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <li class="nav-item">
+                            <a href="dashboad.html" class="nav-link">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="product.html" class="nav-link">Products</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a href="orders.html" class="nav-link">Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="customers.html" class="nav-link">Customer</a>
+                        </li>
+                        
+    
+                        <li class="nav-item">
+                            <a href="setting.html" class="nav-link">Settings</a>
+                        </li>
+                    <ul class="nav-list secondary-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Sign Out</a>
+                        </li>
+                    </ul>
+                </ul>
+            </nav>
+            
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 content">
+              
+                <div id="settings" class="mb-4">
+                    <h2>Settings</h2>
+                    <form>
+                       
+                        <div class="mb-4">
+                            <h4>General Settings</h4>
+                            <div class="mb-3">
+                                <label for="shopName" class="form-label">Shop Name</label>
+                                <input type="text" class="form-control" id="shopName" placeholder="Enter your shop name" value="UC Shop">
+                            </div>
+                            <div class="mb-3">
+                                <label for="currency" class="form-label">Currency</label>
+                                <select class="form-select" id="currency">
+                                    <option selected>USD ($)</option>
+                                    <option>​​KHR (៛)</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h4>User Account</h4>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email" >
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Change Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Enter new password">
+                            </div>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h4>Appearance</h4>
+                            <div class="mb-3">
+                                <label for="theme" class="form-label">Theme</label>
+                                <select class="form-select" id="theme">
+                                    <option selected>Light</option>
+                                    <option>Dark</option>
+                                    <option>System Default</option>
+                                </select>
+                            </div>
+                            
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </form>
+                </div>       
+</body>
+</html>
